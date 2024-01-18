@@ -1,0 +1,10 @@
+# # syntax file for k8s deployment - explained 
+# # ***required filed***
+# apiVersion: apps/v1 # the version of the k8s api to be used to create this object 
+# # ***required filed***
+# kind: Deployment # the kind of object that is being created 
+# # ***required filed***
+# metadata: # data that helps uniquely identify the object
+#   name: sample-depl
+# # ***required filed***
+# spec: # nested fields specific to that object - desired state of the object 
